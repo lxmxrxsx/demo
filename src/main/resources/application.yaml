@@ -1,0 +1,15 @@
+feign:
+  client:
+    autorizacao:
+      ssl:
+        key-store: classpath:keystore/SERRA IMB 2024.pfx
+        key-store-password: 94854908
+        store-type: pkcs12
+autorizacao:
+  url: https://val.portalunico.siscomex.gov.br/portal/api/
+server:
+  port: 8443
+  ssl:
+    key-store: classpath:keystore/SERRA IMB 2024.pfx
+    key-store-type: PKCS12
+    key-store-password: 94854908
